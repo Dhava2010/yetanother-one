@@ -1,23 +1,52 @@
-#h3head
+.heading
 {
-    font-size: 20px;
     width: 100%;
-    margin: 0px;
+    text-align: center;
 }
 
-#description
+h1
 {
-    font-size: 15px;
+    position: fixed;
+    display: inline;
 }
 
-.startbtn
+.heading button
 {
-    margin: 30px;
-    align-content: center;
-    width: 75px;
-    font-size: 20px;
+    float: right;
+    border: 3px;
+    border-style: solid;
+    border-color: mediumorchid;
 }
 
-body{
-    background-color: black;
+.gotoclass
+{
+    width: 100%;
+}
+
+#startbutton , #status
+{
+    font-size: 25px
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+.up_left_right
+{
+    display: inline-block;
+    width: 45%;
+}
+
+h4{
+    margin:0px;
+    line-height: 2;
+}
+
+video{
+    background:url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
 }
