@@ -5,11 +5,11 @@ function preload() {
 }
 
 function setup() {
-	canvas = createCanvas(1240,336);
+	canvas = createCanvas(1200,600);
 	canvas.parent('canvas');
 	instializeInSetup(mario);
 	video = createCapture(VIDEO);
-	video.size(600, 300);
+	video.size(800, 400);
 	video.parent("gameconsole");
 
 	poseNet = ml5.poseNet(video, modelLoaded);
